@@ -1,0 +1,14 @@
+@import url(./style.css);
+
+body {
+    background-image: none;
+}
+
+.titulo__main {
+    color: var(--cor-fonte-primaria);
+    font-size: 2.5rem;
+}
+
+.cabecalho {
+    padding: 2% 0% 0% 70%;;
+}

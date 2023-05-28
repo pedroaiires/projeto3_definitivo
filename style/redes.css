@@ -1,0 +1,45 @@
+@import url(./style.css);
+
+.cabecalho {
+    padding: 2% 0% 0% 70%;;
+}
+
+.titulo__main {
+    color: var(--cor-fonte-primaria);
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.redes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.redes__links {
+    text-decoration: none;
+    color: var(--cor-fonte-primaria);
+    border-width: 0.2em;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: var(--cor-fonte-primaria);
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    gap: 0.4em;
+}
+
+.redes__links:hover {
+    background-color: bisque;
+    border-color: brown;
+    color: black;
+}
+
+.imagem__insta {
+    width: 1.5em;
+    height: 1.5em;
+}
